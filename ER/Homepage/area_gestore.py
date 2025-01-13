@@ -107,10 +107,7 @@ class AreaGestore:
 		if item:
 			paziente_id = treeview_pazienti.item(item[0], "values")[0]  # Prendi l'ID del paziente
 			modifica_descrizione_finestra(self.root, paziente_id)
-
-
-
-
+			
 	def show_risorse_umane(self):
 		"""Mostra la sezione per la gestione delle risorse umane."""
 		self.clear_main_frame()
